@@ -1,0 +1,803 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
+header {
+    margin-left: 9.79vw;
+    margin-top: 2.92vw;
+    background-color: #fbf6f3;
+    height: 3.65vw;
+    width: 80.63vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: "Comfortaa";
+    font-size: 1.67vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.88vw;
+}
+
+.logo a {
+    position: absolute;
+    z-index: 1;
+    top: 3.5vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.08vw;
+    line-height: 2.45vw;
+    color: #424530;
+}
+
+.login {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.67vw;
+    line-height: 1.88vw;
+
+    color: #424530;
+
+}
+
+.logo img {
+    position: absolute;
+    top: 2.92vw;
+    left: 14.05vw;
+    width: 5.89vw;
+    height: 3.65vw;
+}
+
+.Url_center {
+    padding-left: 1.82vw;
+    padding-right: 1.82vw;
+}
+
+.url {
+    margin-right: 5vw;
+}
+
+body {
+    background-color: #FBF6F3;
+}
+
+.rent {
+    margin-top: 1.04vw;
+    height: 49.48vw;
+    background-color: #424530;
+    display: flex;
+    align-items: flex-end;
+}
+
+.arent {
+    position: relative;
+    width: 48.93vw;
+    height: 39.79vw;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0.16vw;
+    border-bottom: 0.16vw;
+    border-style: solid;
+    border-color: #E2D1C1;
+}
+
+.Ellipse {
+    width: 38.85vw;
+    height: 38.18vw;
+    margin-left: 4.17vw;
+    margin-top: 0.83vw;
+}
+
+.Ellipse_h2 {
+    position: absolute;
+    top: 10.63vw;
+    left: 8.80vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.65vw;
+    line-height: 4.43vw;
+    color: #E2D1C1;
+}
+
+.Ellipse_h1 {
+    position: absolute;
+    top: 14.27vw;
+    left: 8.80vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6.46vw;
+    line-height: 7.81vw;
+    color: #E2D1C1;
+}
+
+.Ellipse_h3 {
+    position: absolute;
+    top: 23.54vw;
+    left: 9.11vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 1.98vw;
+    color: #E2D1C1;
+    width: 31.35vw;
+    height: 5.94vw;
+
+}
+
+.Ellipse_a {
+    position: absolute;
+    top: 31.56vw;
+    left: 17.19vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.08vw;
+    line-height: 2.50vw;
+    text-decoration: none;
+    color: #E2D1C1;
+}
+
+.Ellipse_arrow {
+    position: absolute;
+    top: 34.74vw;
+    left: 17.19vw;
+    width: 12.81vw;
+}
+
+.center {
+    margin-left: 13.54vw;
+    width: 72.86vw;
+    height: 47.08vw;
+    border-width: 0.16vw 0.16vw 0 0.16vw;
+    border-style: solid;
+    border-color: #E2D1C1;
+    display: flex;
+}
+
+
+.right {
+    margin-right: 0;
+    border: 0.16vw;
+    width: 25.63vw;
+    height: 46.88vw;
+}
+
+.popular_main {
+    height: 55.52vw;
+}
+
+.popular_p {
+    margin-top: 4.17vw;
+    margin-left: 9.64vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.65vw;
+    line-height: 4.43vw;
+    color: #424530;
+}
+
+.popular_second {
+    margin-top: 4.27vw;
+    margin-left: 9.64vw;
+    width: 80.68vw;
+    height: 31.61vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.popular_block {
+    position: relative;
+    width: 22.29vw;
+    height: 27.72vw;
+    border: 0.10vw solid #424530;
+    border-radius: 0px 0px 1.56vw 0px;
+}
+
+.popular_img {
+    object-fit: cover;
+    background-size: contain;
+    width: 15vw;
+    height: 19.58vw;
+    border-radius: 0px 2.08vw 2.08vw 0px;
+}
+
+.popular_second_p {
+    margin-top: 1.30vw;
+    margin-left: 1.56vw;
+    width: 19.69vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.88vw;
+    line-height: 2.29vw;
+    color: #424530;
+}
+
+.popular_desck {
+    margin-top: 0.57vw;
+    margin-left: 1.56vw;
+    width: 18.91vw;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.15vw;
+    color: #424530;
+}
+
+.popular_b {
+    position: absolute;
+    top: 7vw;
+    left: 14.05vw;
+    transform: rotate(-90deg);
+    background: #424530;
+    border-radius: 0.52vw 0.52vw 0px 0px;
+    border: none;
+    height: 3.54vw;
+    width: 13.02vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.88vw;
+    line-height: 2.19vw;
+    color: #FBF6F3;
+}
+
+.rent_block {
+    height: 105.16vw;
+}
+
+.sosicka {
+    margin-left: 30.7vw;
+    border: 0.16vw solid #424530;
+    border-radius: 10.42vw 0px 0px 10.42vw;
+    width: 68.07vw;
+    height: 8.54vw;
+}
+
+.sosicka_p {
+    margin-top: 2.14vw;
+    margin-left: 9.58vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.65vw;
+    line-height: 4.43vw;
+    color: #424530;
+}
+
+.filter_and_room {
+    height: 87.76vw;
+    display: flex;
+}
+
+.filter {
+    width: 20.36vw;
+    height: 71.6vw;
+    border-top: 0.16vw #424530 solid;
+    border-bottom: 0.16vw #424530 solid;
+    border-radius: 0px 0px 5.21vw 0px;
+    border-right: 0.16vw #424530 solid;
+    padding-left: 4.32vw;
+}
+
+.filter_p_main {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.88vw;
+    line-height: 2.29vw;
+    color: #424530;
+    margin-top: 3.39vw;
+    margin-bottom: 2.66vw;
+}
+
+.filter_city {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    width: 15vw;
+    color: #424530;
+    margin-bottom: 1.77vw;
+    margin-top: 1.77vw;
+
+}
+
+.filter_city_select {
+    width: 12.14vw;
+    /*height: 3.7vw;*/
+    border: 0.05vw solid #424530;
+    border-radius: 0.78vw;
+    padding: 1vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    color: #202217;
+
+    appearance: none;
+    overflow: hidden;
+    background: url('img/Group\ 17.svg') no-repeat;
+    background-position: 8vw;
+    margin-top: 0.83vw;
+}
+
+.filter_from_to {
+    margin-top: 0.83vw;
+    display: flex;
+    width: 16.46vw;
+    height: 3.39vw;
+    border: 0.05vw solid #424530;
+    border-radius: 0.78vw;
+}
+
+.from {
+    padding-left: 0.94vw;
+    width: 7.02vw;
+    height: 3.44vw;
+    border: none;
+    background-color: #E2D1C100;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    border-radius: 0.78vw 0 0 0.78vw;
+}
+
+.to {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    padding-left: 0.94vw;
+    width: 7.5vw;
+    height: 3.44vw;
+    border: none;
+    border-left: 0.05vw solid #424530;
+    background-color: #E2D1C100;
+    border-radius: 0 0.78vw 0.78vw 0;
+}
+
+.filter_type {
+    margin-top: 2.08vw;
+
+    width: 15.94vw;
+}
+
+.filter_fuul_home {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    margin-bottom: 0.78vw;
+    color: #202217;
+    width: 16vw;
+}
+
+.filter_fuul_home input {
+    margin-right: 0.52vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.filter_fuul_home_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    width: 13.91vw;
+    height: 2.71vw;
+    color: rgba(32, 34, 23, 0.5);
+    margin-left: 0.9vw;
+    margin-top: 0.52vw;
+    margin-bottom: 1.77vw;
+}
+
+.filter_type_house {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 17vw;
+    height: 17.24vw;
+
+}
+
+.event_for_photo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    margin-top: 6.15vw;
+    color: #202217;
+
+}
+
+.filter_button {
+    width: 13.49vw;
+    height: 3.85vw;
+    border: none;
+    background: #424530;
+    border-radius: 0.47vw;
+
+
+}
+
+.filter_button > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+    line-height: 2.03vw;
+
+    color: #FFFFFF;
+
+    margin: auto;
+    margin-top: 0.7vw;
+    width: 8vw;
+}
+
+.filter_del {
+    border: none;
+    background-color: #FBF6F3;
+}
+
+.life_and_death {
+    display: flex;
+    justify-content: space-between;
+    width: 16.61vw;
+    height: 3.80vw;
+}
+
+
+.room {
+    width: 74.58vw;
+    height: 87.66vw;
+    border-top: 0.16vw #424530 solid;
+}
+
+.rooms_flex {
+    margin-top: 7.19vw;
+    margin-left: 6.56vw;
+    width: 62.34vw;
+    height: 80.57vw;
+    max-height: 80.57vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.flex_room_left_index {
+    width: 17.86vw;
+    height: 24.11vw;
+    background-color: #E2D1C1;
+    border-radius: 0px 0px 0px 5.21vw;
+}
+
+.flex_room_left_index > p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #424530;
+
+    margin-top: 1vw;
+    width: 16vw;
+}
+
+.flex_room_modle {
+    width: 17.86vw;
+    height: 24.11vw;
+    background-color: #E2D1C1;
+
+}
+.flex_room_modle>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #424530;
+
+    margin-top: 1vw;
+    width: 16vw;
+}
+
+.flex_room_right_index {
+    width: 17.86vw;
+    height: 24.11vw;
+    background-color: #E2D1C1;
+    border-radius: 0px 0px 5.21vw 0px;
+}
+.flex_room_right_index>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #424530;
+
+    margin-top: 1vw;
+    width: 16vw;
+}
+.visit {
+    position: relative;
+    padding-top: 0.57vw;
+    width: 12.14vw;
+    height: 2.71vw;
+    background-color: #424530;
+    border-radius: 0px 0px 2.60vw 0px;
+}
+
+.visit_a {
+    margin-left: 2.86vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #FBF6F3;
+
+    background: transparent;
+    border: none;
+}
+
+.visit_img {
+    width: 2vw;
+    height: 2vw;
+    background: transparent;
+    border: none;
+}
+
+.visit_img img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.flex_room_a {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #424530;
+    margin-left: 3.28vw;
+    margin-top: 0.54vw;
+
+}
+
+.flex_room_img {
+    position: absolute;
+    margin-top: 1.11vw;
+    margin-left: 2.60vw;
+
+    width: 13.70vw;
+    height: 15.47vw;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_room_left {
+    width: 4.17vw;
+    height: 13.18vw;
+}
+
+.flex_room_right {
+    width: 9.11vw;
+    height: 13.18vw;
+}
+
+.flex_room_left_img {
+    width: 4.12vw;
+    height: 4.12vw;
+    object-fit: cover;
+}
+
+.flex_room_left_img_center {
+    width: 4.12vw;
+    height: 4.12vw;
+    margin-top: 0.42vw;
+    margin-bottom: 0.2vw;
+    object-fit: cover;
+}
+
+.flex_room_right_img {
+    width: 9.11vw;
+    height: 13.55vw;
+    object-fit: cover;
+}
+
+.flex_room_left_img_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #424530;
+    margin-left: 9.1vw;
+    margin-top: 1.5vw;
+}
+
+.flex_room_midle_img_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #424530;
+    margin-left: 4.1vw;
+    margin-top: 1.5vw;
+}
+
+.flex_room_right_img_p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #424530;
+    margin-top: 1.5vw;
+}
+
+footer {
+    height: 19.90vw;
+    background: #424530;
+}
+
+.footer_up {
+    position: absolute;
+    width: 36.51vw;
+    height: 1.51vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4.01vw;
+    margin-left: 9.32vw;
+}
+
+.footer_up a {
+
+    color: #E2D1C1;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    margin-top: 9.58vw;
+    margin-left: 9.32vw;
+
+    width: 81.56vw;
+    height: 6.77vw;
+}
+
+.footer_down_img {
+    width: 15.94vw;
+    height: 6.51vw;
+}
+
+.footer_center_img img {
+    width: 2.29vw;
+    height: 2.29vw;
+}
+
+.Copyright {
+    margin-top: 2.50vw;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+
+    color: #E2D1C1;
+}
+
+.footer_right {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+
+    width: 19.79vw;
+    height: 4.01vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.footer_right a {
+    color: #E2D1C1;
+}
+
+.footer_center_div_img {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 4.06vw;
+    width: 9.64vw;
+    height: 2.29vw;
+}
+
+.slider_count {
+    display: flex;
+
+    width: 28.49vw;
+    margin-left: 48vw;
+    margin-top: 2vw;
+    border-bottom: 1px solid #1E1E1E;
+    margin-bottom: 2.5vw;
+}
+
+.number {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.083vw;
+    line-height: 2.448vw;
+
+    color: #424530;
+
+
+    width: 2.646vw;
+    height: 2.65625vw;
+}
+
+.number p {
+    margin-left: 0.9375vw;
+}
+

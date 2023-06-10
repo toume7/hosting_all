@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
+header {
+    margin-left: 9.79vw;
+    margin-top: 2.92vw;
+    background-color: #fbf6f3;
+    height: 3.65vw;
+    width: 80.63vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: "Comfortaa";
+    font-size: 1.67vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.88vw;
+}
+
+.login {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.67vw;
+    line-height: 1.88vw;
+
+    color: #424530;
+    text-decoration-line: underline;
+}
+
+.logo a {
+    position: absolute;
+    z-index: 1;
+    top: 3.5vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.08vw;
+    line-height: 2.45vw;
+    color: #424530;
+}
+
+.logo img {
+    position: absolute;
+    top: 2.92vw;
+    left: 14.05vw;
+    width: 5.89vw;
+    height: 3.65vw;
+}
+
+.Url_center {
+    padding-left: 1.82vw;
+    padding-right: 1.82vw;
+}
+
+.url {
+    margin-right: 5vw;
+}
+
+body {
+    background-color: #FBF6F3;
+}
+
+.first_hr {
+    width: 80.625vw;
+    height: 0vw;
+    margin-left: 9.688vw;
+    border: 0.208vw solid #E2D1C1;
+    margin-top: 3.229vw;
+}
+
+.div {
+    display: flex;
+    width: 80.99vw;
+    height: 60.104vw;
+    margin-top: 3.073vw;
+    margin-left: 9.688vw;
+}
+
+.left {
+    width: 17.656vw;
+    height: 12.5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_img {
+    object-fit: cover;
+    width: 10.573vw;
+    height: 10.573vw;
+    border-radius: 50%;
+}
+
+.left_a {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.042vw;
+    line-height: 1.146vw;
+    text-decoration-line: underline;
+    border: none;
+    background: none;
+    color: #424530;
+}
+
+.right {
+    width: 46.198vw;
+    height: 59.948vw;
+}
+
+.first_right_p {
+    display: flex;
+    justify-content: space-around;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.021vw;
+
+
+    width: 46.198vw;
+    height: 3.177vw;
+
+    margin-bottom: 0.781vw;
+
+}
+
+.right_div {
+    margin-top: 3.49vw;
+
+    width: 45.625vw;
+    height: 84.948vw;
+    background: #E2D1C1;
+    border-radius: 0px 4.688vw;
+
+
+}
+
+.right_div_first {
+    width: 32.083vw;
+    height: 14.531vw;
+    margin-left: 6.51vw;
+    padding-top: 3.333vw;
+    margin-bottom: 3.542vw;
+}
+
+.right_div_first_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.875vw;
+    line-height: 2.292vw;
+    margin-bottom: 2.135vw;
+
+
+}
+
+.right_div_second {
+    width: 32.083vw;
+    height: 14.531vw;
+    margin-left: 6.51vw;
+}
+
+.right_div_first_lable {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25vw;
+    line-height: 1.406vw;
+    text-decoration-line: underline;
+}
+
+.right_div_second_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    width: 32.344vw;
+    height: 14.167vw;
+}
+
+.right_div_first_input {
+    margin-left: 1.25vw;
+
+    height: 2.448vw;
+    border: none;
+    background: #FBF6F3;
+    border-radius: 0.521vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+}
+
+.right_div_first_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+    width: 32.344vw;
+    height: 10.104vw;
+}
+footer {
+    margin-top: 45.125vw;
+    height: 19.90vw;
+    background: #424530;
+}
+
+.footer_up {
+    position: absolute;
+    width: 36.51vw;
+    height: 1.51vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4.01vw;
+    margin-left: 9.32vw;
+}
+
+.footer_up a {
+
+    color: #E2D1C1;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    margin-top: 9.58vw;
+    margin-left: 9.32vw;
+
+    width: 81.56vw;
+    height: 6.77vw;
+}
+
+.footer_down_img {
+    width: 15.94vw;
+    height: 6.51vw;
+}
+
+.footer_center_img img {
+    width: 2.29vw;
+    height: 2.29vw;
+}
+
+.Copyright {
+    margin-top: 2.50vw;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+
+    color: #E2D1C1;
+}
+
+.footer_right {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+
+    width: 19.79vw;
+    height: 4.01vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.footer_right a {
+    color: #E2D1C1;
+}
+
+.footer_center_div_img {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 4.06vw;
+    width: 9.64vw;
+    height: 2.29vw;
+}
+
+
+.date {
+
+    width: 24.844vw;
+    height: 26.958vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date_lable {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+    color: #424530;
+
+    width: 15.26vw;
+    height: 4.479vw;
+}
+
+.date_lable_input {
+    background: #FBF6F3;
+    border-radius: 1.042vw;
+    border: none;
+    width: 10.573vw;
+    height: 2.292vw;
+    margin-top: 0.417vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+}
+
+.two {
+    width: 24.792vw;
+    height: 4.375vw;
+    display: flex;
+}
+
+.save {
+    width: 24.219vw;
+    height: 5.129vw;
+
+
+    background: #424530;
+    border-radius: 0px 0px 0px 0.781vw;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.667vw;
+    line-height: 2.031vw;
+
+    color: #E2D1C1;
+
+    margin-top: 3.073vw;
+
+    margin-left: 11.406vw;
+}

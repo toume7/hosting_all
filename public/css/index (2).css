@@ -1,0 +1,201 @@
+body {
+    background: #424530;
+    padding-bottom: 2.76vw;
+    padding-top: 2.76vw;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
+.main {
+    position: relative;
+    width: 84.01vw;
+    height: 77.958vw;
+    background: #fbf6f3;
+    border-radius: 0vw 8.438vw;
+    margin-left: 7.969vw;
+}
+
+.main_img {
+    position: absolute;
+    width: 22.552vw;
+    height: 67.221vw;
+    margin-top: 6.927vw;
+    margin-left: 3.542vw;
+}
+
+.main_center {
+    position: absolute;
+    width: 36.094vw;
+    height: 28.281vw;
+    margin-top: 22.552vw;
+    margin-left: 18.646vw;
+}
+
+.main_div {
+    position: absolute;
+    margin-top: 3.49vw;
+    margin-left: 49.01vw;
+
+    width: 32.656vw;
+    height: 70.198vw;
+    background: #e2d1c1;
+    border-radius: 0px 6.771vw 0.208vw;
+}
+
+.main_div_p {
+    width: 22.031vw;
+    height: 5.156vw;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.083vw;
+    line-height: 2.5vw;
+
+    color: #424530;
+
+    margin-top: 2.917vw;
+    margin-left: 4.219vw;
+}
+
+.unhidendate {
+    margin-left: 4.219vw;
+
+    width: 416.006px;
+    height: 7.969vw;
+    display: flex;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.block {
+
+    width: 27vw;
+    height: 1.354vw;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+    color: #424530;
+}
+
+.second_block {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25vw;
+    line-height: 1.458vw;
+    text-decoration-line: underline;
+
+    color: #424530;
+    margin-left: 0.781vw;
+}
+
+.second_div_p {
+    width: 24.792vw;
+    height: 37.083vw;
+    margin-left: 4.219vw;
+}
+
+.pasport {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.667vw;
+    line-height: 2.031vw;
+
+    color: #424530;
+
+}
+
+.date {
+    width: 24.844vw;
+    height: 26.958vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date_lable {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+
+    color: #424530;
+
+    width: 15.26vw;
+    height: 4.479vw;
+}
+
+.date_lable_input {
+    background: #FBF6F3;
+    border-radius: 1.042vw;
+    border: none;
+    width: 10.573vw;
+    height: 2.292vw;
+    margin-top: 0.417vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+}
+
+.two {
+    width: 24.792vw;
+    height: 4.375vw;
+    display: flex;
+}
+
+button {
+    width: 24.219vw;
+    height: 5.129vw;
+
+
+    background: #424530;
+    border-radius: 0px 0px 0px 0.781vw;
+    border: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.667vw;
+    line-height: 2.031vw;
+
+    color: #E2D1C1;
+}
+
+.arrow {
+    position: absolute;
+    top: 76.703vw;
+}

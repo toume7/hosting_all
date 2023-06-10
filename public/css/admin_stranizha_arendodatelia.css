@@ -1,0 +1,429 @@
+* {
+    padding: 0vw;
+    margin: 0vw;
+    list-style-type: none;
+    background-repeat: no-repeat;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #FBF6F3;
+}
+
+/*Header*/
+
+header {
+    margin-left: 9.79vw;
+    margin-top: 1.5vw;
+    background-color: #fbf6f3;
+    height: 8vw;
+    width: 80.63vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-family: "Comfortaa";
+    font-size: 1.67vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.88vw;
+    border-top: none;
+    border-radius: 0 0 3vw 3vw;
+    border-left: 3px solid #424530;
+    border-bottom: 3px solid #424530;
+    border-right: 3px solid #424530;
+}
+
+.login {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 1.88vw;
+    text-decoration: none;
+    color: #424530;
+    margin-right: 5vw;
+    margin-top: -1.6vw;
+}
+
+.logo a {
+    position: absolute;
+    z-index: 1;
+    top: 3.5vw;
+    left: 15.05vw;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.08vw;
+    line-height: 2.45vw;
+    color: #424530;
+    text-decoration: none;
+}
+
+.logo img {
+    position: absolute;
+    top: 2.92vw;
+    left: 19.5vw;
+    width: 5.89vw;
+    height: 3.65vw;
+}
+
+.url a {
+    margin-top: -2vw;
+    color: #424530;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
+}
+
+.Url_center {
+    padding-left: 1.82vw;
+    padding-right: 1.82vw;
+}
+
+.url {
+    margin-top: -1.6vw;
+    margin-left: 10vw;
+}
+
+/**/
+
+
+.section1 {
+    height: auto;
+}
+
+.komnata {
+    margin-top: 6vw;   
+    margin-left: 10vw;
+    height: auto;
+    width: 70vw;
+}
+
+.komnata_img{
+    width: 16vw;
+    height: 16vw;
+}
+
+.komnata_img img{
+    border-radius: 8vw;
+    width: 16vw;
+    height: 16vw;
+    object-fit: cover;
+}
+
+.komnata_name{
+    margin-top: -16vw;
+    margin-left: 22vw;
+    width: 50vw;
+    height: 4vw;
+}
+
+.komnata_name a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.4vw;
+    color: #424530;
+    border-bottom:2px solid #424530;
+}
+
+.komnata_email {
+    margin-top: 3vw;
+    margin-left: 22vw;
+    width: 5vw;
+    height: 2vw;
+}
+
+.komnata_email a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_email2 {
+    margin-top: -2vw;
+    margin-left: 28vw;
+    width: 50vw;
+    height: 2vw;
+}
+
+.komnata_email2 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+    border-bottom: 2px solid #424530;
+    font-weight: 500;
+}
+
+.komnata_number{
+    margin-top: 1vw;
+    margin-left: 22vw;
+    width: 13vw;
+    height: 2vw;
+}
+
+.komnata_number a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_number2 {
+    margin-top: -1.8vw;
+    margin-left: 36vw;
+    width: 30vw;
+    height: 2vw;
+}
+
+.komnata_number2 a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+    border-bottom: 2px solid #424530;
+    font-weight: 500;
+}
+
+.pasportnie{
+    margin-top: 4vw;
+    margin-left: 22.1vw;
+    width: 22vw;
+    height: 2.5vw;
+}
+
+.pasportnie a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.2vw;
+    color: #424530;
+}
+
+.komnata_seria{
+    margin-top: 3vw;
+    margin-left: 22vw;
+    width: 17vw;
+    height: 2vw;
+}
+
+.komnata_seria a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_number_passport {
+    margin-top: -2vw;
+    margin-left: 41vw;
+    width: 26vw;
+    height: 2vw;
+}
+
+.komnata_number_passport a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_happy {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 30vw;
+    height: 2vw;
+}
+
+.komnata_happy a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_vidachi {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 30vw;
+    height: 2vw;
+}
+
+.komnata_vidachi a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_kod {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 35vw;
+    height: 2vw;
+}
+
+.komnata_kod a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_kem_vidan {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 40vw;
+    height: 2vw;
+}
+
+.komnata_kem_vidan a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4vw;
+    color: #424530;
+}
+
+.komnata_snils {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 40vw;
+    height: 2vw;
+}
+
+.komnata_snils a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
+    color: #424530;
+}
+
+.komnata_inn {
+    margin-top: 2vw;
+    margin-left: 22vw;
+    width: 40vw;
+    height: 2vw;
+}
+
+.komnata_inn a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
+    color: #424530;
+}
+
+.komnata_priniati{
+    margin-left: 4vw;
+    margin-top: -30vw;
+    position: absolute;
+    width: 8vw;
+    height: 2.8vw;
+}
+
+.komnata_priniati a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
+    color: #5A670A;
+    border-bottom: 2px solid #5A670A;
+}
+
+.komnata_otkaz {
+    margin-left: 4vw;
+    margin-top: -27vw;
+    position: absolute;
+    width: 6vw;
+    height: 2.8vw;
+}
+
+.komnata_otkaz a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8vw;
+    color: #8B0000;
+    border-bottom: 2px solid #8B0000;
+}
+
+
+
+
+
+/*Footer*/
+
+footer {
+    margin-top: 20.125vw;
+    height: 19.90vw;
+    background: #424530;
+}
+
+.footer_up {
+    position: absolute;
+    width: 31.51vw;
+    height: 1.51vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 4.01vw;
+    margin-left: 9.32vw;
+}
+
+.footer_up a {
+    text-decoration: none;
+    color: #E2D1C1;
+}
+
+.footer_down {
+    display: flex;
+    justify-content: space-between;
+
+    position: absolute;
+    margin-top: 9.58vw;
+    margin-left: 9.32vw;
+
+    width: 81.56vw;
+    height: 6.77vw;
+}
+
+.footer_down_img {
+    width: 15.94vw;
+    height: 6.51vw;
+}
+
+.footer_center_img img {
+    width: 2.29vw;
+    height: 2.29vw;
+}
+
+.Copyright {
+    margin-top: 2.50vw;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.04vw;
+    line-height: 1.04vw;
+
+    color: #E2D1C1;
+}
+
+.footer_right {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    width: 19.79vw;
+    height: 4.01vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.footer_right a {
+    text-decoration: none;
+    color: #E2D1C1;
+}
+
+.footer_center_div_img {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 4.06vw;
+    width: 9.64vw;
+    height: 2.29vw;
+}
+
+/**/

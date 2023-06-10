@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+
+body {
+    background: #424530;
+}
+
+.main {
+    position: relative;
+    width: 84.01vw;
+    height: 42.813vw;
+    background: #FBF6F3;
+    border-radius: 10.417vw 0px;
+    margin-top: 6.719vw;
+    margin-left: 7.969vw;
+}
+
+.body_arrow {
+    position: absolute;
+    top: 5.9vw;
+    left: 8.969vw;
+}
+
+.log {
+    position: absolute;
+    width: 31.979vw;
+    height: 36.563vw;
+    left: 4.427vw;
+    top: 3.125vw;
+    z-index: 2;
+    background: #E2D1C1;
+    border-radius: 6.771vw 0px 0.208vw;
+}
+
+.log_img {
+    position: absolute;
+    top: 7.167vw;
+    z-index: 1;
+    left: 34.417vw;
+    width: 27.865vw;
+    height: 27.865vw;
+}
+
+.log_p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.333vw;
+    line-height: 4.01vw;
+
+
+    margin-top: 3.385vw;
+    margin-left: 11.719vw;
+}
+
+.log_lable {
+    margin-left: 4.948vw;
+    margin-bottom: 0.625vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+}
+
+.log_input {
+    margin-left: 3.906vw;
+    width: 24.219vw;
+    height: 3.177vw;
+    border: none;
+    background: #FBF6F3;
+    border-radius: 1.042vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+}
+
+button {
+    width: 24.219vw;
+    height: 3.958vw;
+    border: none;
+    background: #424530;
+    border-radius: 0px 0px 0px 0.781vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.667vw;
+    line-height: 2.031vw;
+
+    color: #E2D1C1;
+
+    margin-top: 3.333vw;
+    margin-left: 3.854vw;
+    margin-bottom: 0.833vw;
+}
+
+.login_a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vw;
+    line-height: 1.51vw;
+    text-decoration-line: underline;
+
+    color: #424530;
+
+    margin-left: 12.083vw;
+}
+
+.message {
+    position: absolute;
+    z-index: 15;
+    left: 30.885vw;
+    top: 19.323vw;
+    width: 38.18vw;
+    height: 24.58vw;
+
+    background: #FBF6F3;
+    border: 0.15625vw solid #424530;
+    border-radius: 3.125vw;
+}
+
+.message_flex {
+    width: 24.792vw;
+    height: 10.573vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.message h1 {
+    width: 10.26vw;
+    height: 3.021vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    line-height: 3.021vw;
+
+
+    color: #424530;
+
+    margin-left: 10.677vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.message_flex p {
+    width: 19.53125vw;
+    height: 4.583vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.875vw;
+    line-height: 2.292vw;
+    text-align: center;
+
+    color: #424530;
+
+    margin-left: 6.042vw;
+}
+
+.br {
+    width: 24.896vw;
+    height: 0vw;
+    border: 0.15625vw solid #424530;
+    margin-left: 7vw;
+    /*margin-top: -0.5vw;*/
+}
+
+.backround {
+    margin-top: 3.073vw;
+    margin-left: 3.28125vw;
+    width: 31.667vw;
+    height: 18.125vw;
+    background-image: url("/img/Group 128.svg");
+    background-repeat: no-repeat;
+}
+
+.krest {
+    margin-left: 28.302vw;
+    width: 3.018vw;
+    height: 2.65625vw;
+}
+
